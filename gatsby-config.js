@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Sweather 2`,
-        description: `A beautifully simple weather app for iOS`,
+        title: `Leatherbound`,
+        description: `Track your books, beautifully.`,
         author: `@treetrum`,
     },
     plugins: [
@@ -19,8 +19,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Sweather 2`,
-                short_name: `sweather-2`,
+                name: `Leatherbound`,
+                short_name: `leatherbound`,
                 start_url: `/`,
                 background_color: `#fff`,
                 theme_color: `#fff`,

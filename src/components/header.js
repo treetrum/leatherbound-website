@@ -1,9 +1,6 @@
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
 import React from "react";
-import Container from "./shared/Container";
 import styled from "styled-components";
-import { breakpoint } from "../constants";
+import { breakpoint, SiteData } from "../constants";
 import Menu from "./Menu";
 
 const Nav = styled.div`
@@ -27,7 +24,7 @@ const Nav = styled.div`
 
 const Header = () => (
     <Nav>
-        <h2>Sweather 2</h2>
+        <h2>{SiteData.appName}</h2>
         <Menu></Menu>
     </Nav>
 );

@@ -1,7 +1,5 @@
 import { Link } from "gatsby";
-import PropTypes from "prop-types";
 import React from "react";
-import Container from "./shared/Container";
 import styled from "styled-components";
 import { breakpoint } from "../constants";
 

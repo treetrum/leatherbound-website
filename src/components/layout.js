@@ -7,11 +7,8 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
-
 import Header from "./header";
 import "./layout.css";
-
 import Container from "./shared/Container";
 import styled from "styled-components";
 
